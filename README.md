@@ -24,7 +24,19 @@ Location: *Prague*
 <img width="230" alt="image" src="https://github.com/Kshaamini/DataAnalysis-SQL/assets/139740694/1178fa95-fc01-486a-9a47-7949adb0bd76">
 
 Top 5 artists with highest tracks to perform: *Led Zeppelin; U2; Deep Purple; Iron Maiden; Pearl Jam*
-<img width="302" alt="image" src="https://github.com/Kshaamini/DataAnalysis-SQL/assets/139740694/d990cf72-bb92-4649-8e43-e4f882b8308d">
+
+SELECT AR.name, COUNT(T.name)
+
+FROM artist as AR
+JOIN album as AL ON AL.artist_id = AR.artist_id
+JOIN track AS T ON T.album_id = AL.album_id
+JOIN genre as G ON G.genre_id = T.genre_id
+
+WHERE G.name = 'Rock'
+
+GROUP BY 1
+ORDER BY 2 DESC;
+<img width="365" alt="image" src="https://github.com/Kshaamini/Chinook-Music-Store-Analysis-SQLite/assets/139740694/b6264bb2-b809-4cf5-98e8-6f6e76feab02">
 
 
 - **Top sales agent**
