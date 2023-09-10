@@ -1,8 +1,11 @@
 # Chinook Music Store Analysis - SQLite
 
-Examination of the dataset to help the store understand its business growth by answering the following questions.
-ou will be assisting the Chinook team with understanding the media in their store, their customers and employees, and their invoice information. 
+| Summary | 
+| ----------- | 
+|The dataset downloaded from Kaggle.com contains 1 excel file and belongs to PWC. It provides the Call Centre data  for the year 2021.
+|Examination of the dataset to help the store understand the media in their store, their customers and employees, and their invoice information by answering the following questions|
 
+## SQLite
 - **The highest number of invoices belongs to which country?**
   
   *USA*
@@ -23,3 +26,4 @@ Top 5 artists with highest tracks to perform: *Led Zeppelin; U2; Deep Purple; Ir
 
 - **Top sales agent**
 
+## Analysis Powerpoint Slides
