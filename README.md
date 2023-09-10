@@ -5,6 +5,10 @@
 |The dataset downloaded from Kaggle.com contains 1 excel file and belongs to PWC. It provides the Call Centre data  for the year 2021.
 |Examination of the dataset to help the store understand the media in their store, their customers and employees, and their invoice information by answering the following questions|
 
+## Schema
+<img width="457" alt="image" src="https://github.com/Kshaamini/Chinook-Music-Store-Analysis-SQLite/assets/139740694/f9c46b56-b35f-4678-b079-e9cb118e3b90">
+
+
 ## SQLite
 - **The highest number of invoices belongs to which country?**
   
