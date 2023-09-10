@@ -1,4 +1,4 @@
-# -Chinook Music Store Analysis - SQLite
+# Chinook Music Store Analysis - SQLite
 
 Examination of the dataset to help the store understand its business growth by answering the following questions.
 ou will be assisting the Chinook team with understanding the media in their store, their customers and employees, and their invoice information. 
