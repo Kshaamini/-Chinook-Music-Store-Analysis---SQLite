@@ -9,6 +9,13 @@
 
 
 ## SQLite
+**Query 1: Top country/market**
+
+SELECT billing_country as 'Country', COUNT(invoice_id) as 'Orders', SUM(total)as 'Sales amount'
+FROM invoice
+Group By 1
+Order By 2 Desc;
+
 **Query 1: Top 10 Genres**
   
 
